@@ -1,8 +1,26 @@
 aid: porters
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/porters.png
 name: Porters
-description: Porters is a company surfaced as a portfolio company of earlybird, seedcamp and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Porters is an AI-native outsourcing partner for European banking operations. Its platform
+  uses AI agents with human oversight to automate high-volume back-office banking processes — account
+  seizure processing (private and public account seizures), insolvency case management from intake to
+  resolution, and chargeback dispute data collection, triage, and resolution. Documents are ingested,
+  extracted, and classified; decisions are made with a human in the loop; and banking actions plus audit
+  reports are generated automatically. Porters hosts data in the EU in line with GDPR, maintains 24/7
+  audit trails, and does not use customer data for model training. It was founded by veterans of
+  McKinsey, Qonto, Upvest, Solaris, and Roland Berger, and is backed by Earlybird and Seedcamp. No
+  public developer API is currently published.
 url: https://raw.githubusercontent.com/api-evangelist/porters/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,9 +31,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Banking
+- Financial Services
+- Back Office Automation
+- AI Agents
+- Compliance
+- Insolvency
+- Chargebacks
+- Europe
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +49,22 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/porters-domain-security.yml
 - type: Website
-  url: http://withporters.com
+  url: https://www.withporters.com
+- type: Blog
+  url: https://www.withporters.com/blog
+- type: PrivacyPolicy
+  url: https://www.withporters.com/privacy-policy
+- type: SignUp
+  url: https://www.withporters.com/demo
+- type: Careers
+  url: https://withporters.notion.site/join-porters-careers
+- type: LinkedIn
+  url: https://www.linkedin.com/company/withporters/
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
