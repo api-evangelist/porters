@@ -46,7 +46,7 @@ modified: '2026-07-20'
 tags:
 - Company
 - Banking
-- Financial-Services
+- Financial Services
 - Back Office Automation
 - AI Agents
 - Compliance
@@ -63,6 +63,7 @@ tags_raw:
 - Insolvency
 - Chargebacks
 - Europe
+- Financial-Services
 apis: []
 maintainers:
 - FN: Kin Lane
